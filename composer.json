@@ -11,5 +11,7 @@
             "email": "mezenin.97.ka@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^10.48"
+    }
 }
