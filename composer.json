@@ -2,13 +2,15 @@
     "name": "hexlet/code",
 	"description": "1.0.0.",
     "autoload": {
-	"files":["src/Cli.php"],
+	"files":["src/Cli.php",
+		 "src/Even.php"],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
 }
 },
 	"license":"proprietary",
-	"bin":["bin/brain-games"],
+	"bin":["bin/brain-games",
+	       "bin/brain-even"],
     "authors": [
         {
             "name": "Кирилл Мезенин",
