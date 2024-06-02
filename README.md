@@ -5,3 +5,5 @@
 <a href="https://asciinema.org/a/3svnsLm5MbUCYB1Zj4nJqANEn" target="_blank"><img src="https://asciinema.org/a/3svnsLm5MbUCYB1Zj4nJqANEn.svg" /></a>
 <h2>Install and play "brain-calc":</h2>
 <a href="https://asciinema.org/a/Kpfly2PhSvJNbr60HSCkSOLvx" target="_blank"><img src="https://asciinema.org/a/Kpfly2PhSvJNbr60HSCkSOLvx.svg" /></a>
+<h2>Install and play "brain-gcd":</h2>
+<a href="https://asciinema.org/a/9Z7RqzvmwADhI2SQKcRbUEQCE" target="_blank"><img src="https://asciinema.org/a/9Z7RqzvmwADhI2SQKcRbUEQCE.svg" /></a>
