@@ -9,3 +9,5 @@
 <a href="https://asciinema.org/a/9Z7RqzvmwADhI2SQKcRbUEQCE" target="_blank"><img src="https://asciinema.org/a/9Z7RqzvmwADhI2SQKcRbUEQCE.svg" /></a>
 <h2>Install and play "brain-progression":</h2>
 <a href="https://asciinema.org/a/nlvJKBoHMl0OjVfrkP3H6EdoZ" target="_blank"><img src="https://asciinema.org/a/nlvJKBoHMl0OjVfrkP3H6EdoZ.svg" /></a>
+<h2>Install and play "brain-prime":</h2>
+<a href="https://asciinema.org/a/XI7yhFTYPXZ9SCLTfdGNXH1Zt" target="_blank"><img src="https://asciinema.org/a/XI7yhFTYPXZ9SCLTfdGNXH1Zt.svg" /></a>
