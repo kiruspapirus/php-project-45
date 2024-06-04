@@ -1,4 +1,5 @@
 <?php
+
 namespace BrainGames\Games\Prime;
 
 use function cli\line;
@@ -13,30 +14,24 @@ function startGame()
     $name = greeting();
     line('Answer "yes" if given number is prime. Otherwise answer "no".');
     function isPrime($number): bool
-      {
-        for ($i = 2; $i <= sqrt($number); $i++)
-            {
-              if ($number % $i == 0)
-                 {
+    {
+        for ($i = 2; $i <= sqrt($number); $i++) {
+            if ($number % $i == 0) {
                    return false;
-                 }
             }
-       return true;
-      }
-    for ($j = 0; $j < 3; $j++)
-        {
+        }
+        return true;
+    }
+    for ($j = 0; $j < 3; $j++) {
           line('Question: ' . $number = rand(1, 99));
           $rightAnswer = isPrime($number) ? 'yes' : 'no';
           $userAnswer = prompt('Your answer');
-          if ($userAnswer == $rightAnswer)
-             {
+        if ($userAnswer == $rightAnswer) {
                correct();
-             }
-          else
-             {
-               error($userAnswer, $rightAnswer, $name);
+        } else {
+             error($userAnswer, $rightAnswer, $name);
                return;
-             }
         }
-         congratulations($name);
+    }
+     congratulations($name);
 }

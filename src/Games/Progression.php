@@ -1,4 +1,5 @@
 <?php
+
 namespace BrainGames\Games\Progression;
 
 use function cli\line;
@@ -13,16 +14,14 @@ function startGame()
     $name = greeting();
     line('What number is missing in the progression?');
 
-    for ($i = 0; $i < 3; $i++)
-        {
+    for ($i = 0; $i < 3; $i++) {
           $progression = [rand(0, 20)];
           $length = rand(5, 10);
           $progressionStep = rand(2, 5);
 
-          for ($j = 0; $j < $length - 1; $j++)
-            {
+        for ($j = 0; $j < $length - 1; $j++) {
               $progression[] = $progression[$j] + $progressionStep;
-            }
+        }
 
           $randomValue = array_rand($progression, 1);
           $rightAnswer = $progression[$randomValue];
@@ -32,15 +31,12 @@ function startGame()
           line('Question: ' . $progression);
 
           $userAnswer = prompt('Your answer');
-          if ($userAnswer == $rightAnswer)
-             {
+        if ($userAnswer == $rightAnswer) {
                correct();
-             }
-          else
-             {
+        } else {
                error($userAnswer, $rightAnswer, $name);
                return;
-             }
         }
+    }
     congratulations($name);
 }

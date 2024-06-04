@@ -13,37 +13,25 @@ function startGame()
 {
     $name = greeting();
     line('What is the result of the expression?');
-
-
     $operation = ['+', '-', '*'];
-
- for ($i = 0; $i < count($operation); $i++)
-    {
-      $number1 = rand(1, 99);
-      $number2 = rand(1, 99);
-      line('Question: ' . "$number1 " . $operation[$i] . " $number2");
-      if ($operation[$i] === '+')
-          {
+    for ($i = 0; $i < count($operation); $i++) {
+        $number1 = rand(1, 99);
+        $number2 = rand(1, 99);
+        line('Question: ' . "$number1 " . $operation[$i] . " $number2");
+        if ($operation[$i] === '+') {
             $rightAnswer = $number1 + $number2;
-          }
-      elseif ($operation[$i] === '-')
-          {
+        } elseif ($operation[$i] === '-') {
              $rightAnswer = $number1 - $number2;
-          }
-      else
-          {
+        } else {
              $rightAnswer = $number1 * $number2;
-          }
-      $userAnswer = prompt('Your answer');
-      if ($userAnswer == $rightAnswer)
-        {
-             correct();
         }
-      else {
-             error($userAnswer, $rightAnswer, $name);
+        $userAnswer = prompt('Your answer');
+        if ($userAnswer == $rightAnswer) {
+             correct();
+        } else {
+            error($userAnswer, $rightAnswer, $name);
               return;
-           }
+        }
     }
         congratulations($name);
 }
-
