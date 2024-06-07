@@ -28,3 +28,25 @@ function error(string|int $userAnswer, string|int $rightAnswer, string $name): v
     line("'$userAnswer' is wrong answer ;(. Correct answer was '$rightAnswer'.");
     line("Let's try again, $name!");
 }
+
+function gcd(int $a, int $b)
+{
+    while ($a != $b) {
+        if ($a > $b) {
+            $a -= $b;
+        } else {
+            $b -= $a;
+        }
+    }
+    return $a;
+}
+
+function isPrime(int $number): bool
+{
+    for ($i = 2; $i <= sqrt($number); $i++) {
+        if ($number % $i == 0) {
+               return false;
+        }
+    }
+    return true;
+}

@@ -8,20 +8,10 @@ use function BrainGames\Engine\greeting;
 use function BrainGames\Engine\correct;
 use function BrainGames\Engine\error;
 use function BrainGames\Engine\congratulations;
+use function BrainGames\Engine\gcd;
 
 function startGame()
 {
-    function gcd(int $a, int $b)
-    {
-        while ($a != $b) {
-            if ($a > $b) {
-                $a -= $b;
-            } else {
-                $b -= $a;
-            }
-        }
-        return $a;
-    }
     $name = greeting();
     line('Find the greatest common divisor of given numbers.');
     for ($i = 0; $i < 3; $i++) {
