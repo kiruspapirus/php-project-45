@@ -13,26 +13,28 @@
 ## Rules
 
 The project contains 5 mini-games, which, using the commands:
+
 1) make brain-even - even check;
 2) make brain-calc - calculator;
 3) make brain-gcd - greatest common divisor;
 4) make brain-progression - arithmetic progression;
 5) make brain-prime - prime number.
+
 To win, you must answer 3 questions correctly.
 
 ## Examples
 
-* Brain-even:
+## Brain-even:
 <a href="https://asciinema.org/a/3svnsLm5MbUCYB1Zj4nJqANEn" target="_blank"><img src="https://asciinema.org/a/3svnsLm5MbUCYB1Zj4nJqANEn.svg" /></a>
 
-* Brain-calc:
+## Brain-calc:
 <a href="https://asciinema.org/a/Kpfly2PhSvJNbr60HSCkSOLvx" target="_blank"><img src="https://asciinema.org/a/Kpfly2PhSvJNbr60HSCkSOLvx.svg" /></a>
 
-* Brain-gcd:
+## Brain-gcd:
 <a href="https://asciinema.org/a/9Z7RqzvmwADhI2SQKcRbUEQCE" target="_blank"><img src="https://asciinema.org/a/9Z7RqzvmwADhI2SQKcRbUEQCE.svg" /></a>
 
-* Brain-progression:
+## Brain-progression:
 <a href="https://asciinema.org/a/nlvJKBoHMl0OjVfrkP3H6EdoZ" target="_blank"><img src="https://asciinema.org/a/nlvJKBoHMl0OjVfrkP3H6EdoZ.svg" /></a>
 
-* Brain-prime:
+## Brain-prime:
 <a href="https://asciinema.org/a/XI7yhFTYPXZ9SCLTfdGNXH1Zt" target="_blank"><img src="https://asciinema.org/a/XI7yhFTYPXZ9SCLTfdGNXH1Zt.svg" /></a>
