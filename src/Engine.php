@@ -18,12 +18,12 @@ function correct(): void
     line('Correct!');
 }
 
-function congratulations($name)
+function congratulations(string $name)
 {
     line("Congratulations, $name!");
 }
 
-function error($userAnswer, $rightAnswer, $name)
+function error(string|int $userAnswer, string|int $rightAnswer, string $name) : void
 {
     line("'$userAnswer' is wrong answer ;(. Correct answer was '$rightAnswer'.");
     line("Let's try again, $name!");

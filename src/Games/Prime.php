@@ -13,7 +13,7 @@ function startGame()
 {
     $name = greeting();
     line('Answer "yes" if given number is prime. Otherwise answer "no".');
-    function isPrime($number): bool
+    function isPrime(int $number): bool
     {
         for ($i = 2; $i <= sqrt($number); $i++) {
             if ($number % $i == 0) {

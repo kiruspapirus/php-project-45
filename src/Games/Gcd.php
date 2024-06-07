@@ -11,7 +11,7 @@ use function BrainGames\Engine\congratulations;
 
 function startGame()
 {
-    function gcd($a, $b)
+    function gcd(int $a, int $b)
     {
         while ($a != $b) {
             if ($a > $b) {
