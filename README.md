@@ -1,4 +1,4 @@
-### Hexlet tests and linter status:
+## Hexlet tests and linter status:
 
 [![Actions Status](https://github.com/kiruspapirus/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/kiruspapirus/php-project-45/actions)
 <a href="https://codeclimate.com/github/kiruspapirus/php-project-45/maintainability"><img src="https://api.codeclimate.com/v1/badges/92cc7437f3bd888763ec/maintainability" /></a>
@@ -6,9 +6,9 @@
 ## Setup
 
 ```bash
-1) git clone https://github.com/kiruspapirus/php-project-45.git
-2) cd php-project-45 
-3) make install
+git clone https://github.com/kiruspapirus/php-project-45.git
+cd php-project-45 
+make install
 ```
 ## Rules
 
@@ -22,7 +22,7 @@ The project contains 5 mini-games, which, using the commands:
 
 To win, you must answer 3 questions correctly.
 
-## Examples
+### Examples
 
 ## Brain-even:
 <a href="https://asciinema.org/a/3svnsLm5MbUCYB1Zj4nJqANEn" target="_blank"><img src="https://asciinema.org/a/3svnsLm5MbUCYB1Zj4nJqANEn.svg" /></a>
